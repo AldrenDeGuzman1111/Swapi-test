@@ -1,0 +1,13 @@
+type Query {
+    searchCharacter(name: String!): [SWResult]
+}
+
+type Mutation {
+    saveCharacter(name: String!, filmName: String!, vehicleModel: String!): SWResult
+}
+
+type SWResult {
+    name: String
+    filmName: String
+    vehicleModel: String
+}

@@ -1,0 +1,439 @@
+2024-08-13T17:23:44.337+08:00  INFO 24952 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 24952 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:23:44.339+08:00  INFO 24952 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:23:44.571+08:00  INFO 24952 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:23:44.581+08:00  INFO 24952 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-08-13T17:23:44.744+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:23:44.745+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:23:44.745+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:23:44.781+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:23:44.781+08:00  INFO 24952 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 439 ms
+2024-08-13T17:23:44.805+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T17:23:44.810+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T17:23:44.837+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T17:23:44.890+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T17:23:44.895+08:00  INFO 24952 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:23:44.990+08:00  WARN 24952 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T17:23:45.075+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T17:23:45.095+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T17:23:45.099+08:00  INFO 24952 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 0.804 seconds (process running for 85.705)
+2024-08-13T17:23:45.101+08:00  INFO 24952 --- [Swapi-test] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-13T17:24:40.735+08:00  INFO 24952 --- [Swapi-test] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2024-08-13T17:24:40.747+08:00  INFO 24952 --- [Swapi-test] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:24:40.842+08:00  INFO 24952 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 24952 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:24:40.843+08:00  INFO 24952 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:24:41.029+08:00  INFO 24952 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:24:41.038+08:00  INFO 24952 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-08-13T17:24:41.182+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:24:41.184+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:24:41.184+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:24:41.233+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:24:41.234+08:00  INFO 24952 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 389 ms
+2024-08-13T17:24:41.256+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T17:24:41.264+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T17:24:41.290+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T17:24:41.357+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T17:24:41.362+08:00  INFO 24952 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:24:41.472+08:00  WARN 24952 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T17:24:41.558+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T17:24:41.597+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T17:24:41.602+08:00  INFO 24952 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 0.792 seconds (process running for 142.21)
+2024-08-13T17:24:41.605+08:00  INFO 24952 --- [Swapi-test] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-13T17:24:52.187+08:00  INFO 24952 --- [Swapi-test] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 20 class path changes (0 additions, 19 deletions, 1 modification)
+2024-08-13T17:24:52.195+08:00  INFO 24952 --- [Swapi-test] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:24:52.272+08:00  INFO 24952 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 24952 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:24:52.273+08:00  INFO 24952 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:24:52.463+08:00  INFO 24952 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:24:52.465+08:00  INFO 24952 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-08-13T17:24:52.564+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:24:52.565+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:24:52.566+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:24:52.604+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:24:52.604+08:00  INFO 24952 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 329 ms
+2024-08-13T17:24:52.626+08:00  WARN 24952 --- [Swapi-test] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-08-13T17:24:52.627+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-13T17:24:52.633+08:00  INFO 24952 --- [Swapi-test] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-13T17:24:52.659+08:00 ERROR 24952 --- [Swapi-test] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-08-13T17:24:55.216+08:00  INFO 24952 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 24952 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:24:55.217+08:00  INFO 24952 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:24:55.376+08:00  INFO 24952 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:24:55.383+08:00  INFO 24952 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2024-08-13T17:24:55.483+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:24:55.484+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:24:55.484+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:24:55.517+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:24:55.517+08:00  INFO 24952 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 298 ms
+2024-08-13T17:24:55.541+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T17:24:55.549+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T17:24:55.587+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T17:24:55.671+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T17:24:55.687+08:00  INFO 24952 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:24:55.830+08:00  WARN 24952 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T17:24:55.908+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T17:24:55.933+08:00  INFO 24952 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T17:24:55.935+08:00  INFO 24952 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 0.799 seconds (process running for 156.542)
+2024-08-13T17:24:55.936+08:00  INFO 24952 --- [Swapi-test] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-13T17:25:08.598+08:00  INFO 34236 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 34236 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:25:08.600+08:00  INFO 34236 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:25:08.657+08:00  INFO 34236 --- [Swapi-test] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\aldren\.m2\repository\org\glassfish\hk2\hk2\3.0.6\hk2-3.0.6.jar referenced one or more files that do not exist: file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-utils.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.annotation-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.inject-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/aopalliance-repackaged.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-core.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-locator.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/javassist.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-runlevel.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/class-model.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-analysis.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-commons.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-tree.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-util.jar
+2024-08-13T17:25:08.658+08:00  INFO 34236 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-13T17:25:08.658+08:00  INFO 34236 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-13T17:25:09.400+08:00  INFO 34236 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:25:09.451+08:00  INFO 34236 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2024-08-13T17:25:10.437+08:00  INFO 34236 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:25:10.453+08:00  INFO 34236 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:25:10.453+08:00  INFO 34236 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:25:10.513+08:00  INFO 34236 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:25:10.514+08:00  INFO 34236 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1855 ms
+2024-08-13T17:25:10.654+08:00  INFO 34236 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T17:25:10.749+08:00  INFO 34236 --- [Swapi-test] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-13T17:25:10.804+08:00  INFO 34236 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T17:25:11.204+08:00  INFO 34236 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T17:25:12.138+08:00  INFO 34236 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T17:25:12.167+08:00  INFO 34236 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:25:12.639+08:00  WARN 34236 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T17:25:13.124+08:00  WARN 34236 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-13T17:25:13.146+08:00  WARN 34236 --- [Swapi-test] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-08-13T17:25:13.148+08:00  INFO 34236 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:25:13.166+08:00  INFO 34236 --- [Swapi-test] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-13T17:25:13.196+08:00 ERROR 34236 --- [Swapi-test] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-08-13T17:25:30.967+08:00  INFO 9744 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 9744 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:25:30.969+08:00  INFO 9744 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:25:31.022+08:00  INFO 9744 --- [Swapi-test] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\aldren\.m2\repository\org\glassfish\hk2\hk2\3.0.6\hk2-3.0.6.jar referenced one or more files that do not exist: file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-utils.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.annotation-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.inject-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/aopalliance-repackaged.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-core.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-locator.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/javassist.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-runlevel.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/class-model.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-analysis.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-commons.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-tree.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-util.jar
+2024-08-13T17:25:31.023+08:00  INFO 9744 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-13T17:25:31.023+08:00  INFO 9744 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-13T17:25:31.754+08:00  INFO 9744 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:25:31.811+08:00  INFO 9744 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2024-08-13T17:25:32.935+08:00  INFO 9744 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:25:32.956+08:00  INFO 9744 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:25:32.957+08:00  INFO 9744 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:25:33.043+08:00  INFO 9744 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:25:33.044+08:00  INFO 9744 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2020 ms
+2024-08-13T17:25:33.224+08:00  INFO 9744 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T17:25:33.309+08:00  INFO 9744 --- [Swapi-test] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-13T17:25:33.357+08:00  INFO 9744 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T17:25:33.769+08:00  INFO 9744 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T17:25:34.659+08:00  INFO 9744 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T17:25:34.688+08:00  INFO 9744 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:25:35.145+08:00  WARN 9744 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T17:25:35.609+08:00  INFO 9744 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T17:25:35.660+08:00  INFO 9744 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T17:25:35.672+08:00  INFO 9744 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 5.29 seconds (process running for 5.985)
+2024-08-13T17:32:05.203+08:00  INFO 23612 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 23612 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:32:05.207+08:00  INFO 23612 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:32:05.269+08:00  INFO 23612 --- [Swapi-test] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\aldren\.m2\repository\org\glassfish\hk2\hk2\3.0.6\hk2-3.0.6.jar referenced one or more files that do not exist: file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-utils.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.annotation-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.inject-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/aopalliance-repackaged.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-core.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-locator.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/javassist.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-runlevel.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/class-model.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-analysis.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-commons.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-tree.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-util.jar
+2024-08-13T17:32:05.269+08:00  INFO 23612 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-13T17:32:05.270+08:00  INFO 23612 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-13T17:32:05.968+08:00  INFO 23612 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:32:06.034+08:00  INFO 23612 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2024-08-13T17:32:07.005+08:00  INFO 23612 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:32:07.019+08:00  INFO 23612 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:32:07.019+08:00  INFO 23612 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:32:07.074+08:00  INFO 23612 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:32:07.075+08:00  INFO 23612 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1804 ms
+2024-08-13T17:32:07.219+08:00  INFO 23612 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T17:32:07.305+08:00  INFO 23612 --- [Swapi-test] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-13T17:32:07.344+08:00  INFO 23612 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T17:32:07.689+08:00  INFO 23612 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T17:32:08.568+08:00  INFO 23612 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T17:32:08.597+08:00  INFO 23612 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:32:09.060+08:00  WARN 23612 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T17:32:09.518+08:00  INFO 23612 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T17:32:09.569+08:00  INFO 23612 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T17:32:09.579+08:00  INFO 23612 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 4.908 seconds (process running for 5.59)
+2024-08-13T17:33:32.907+08:00  INFO 38752 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 38752 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:33:32.909+08:00  INFO 38752 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:33:32.956+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\aldren\.m2\repository\org\glassfish\hk2\hk2\3.0.6\hk2-3.0.6.jar referenced one or more files that do not exist: file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-utils.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.annotation-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.inject-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/aopalliance-repackaged.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-core.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-locator.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/javassist.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-runlevel.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/class-model.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-analysis.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-commons.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-tree.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-util.jar
+2024-08-13T17:33:32.956+08:00  INFO 38752 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-13T17:33:32.956+08:00  INFO 38752 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-13T17:33:33.698+08:00  INFO 38752 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:33:33.775+08:00  INFO 38752 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2024-08-13T17:33:34.856+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:33:34.878+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:33:34.879+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:33:34.948+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:33:34.949+08:00  INFO 38752 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1991 ms
+2024-08-13T17:33:35.115+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T17:33:35.229+08:00  INFO 38752 --- [Swapi-test] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-13T17:33:35.268+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T17:33:35.595+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T17:33:36.442+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T17:33:36.470+08:00  INFO 38752 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:33:36.892+08:00  WARN 38752 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T17:33:37.357+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T17:33:37.413+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T17:33:37.424+08:00  INFO 38752 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 5.041 seconds (process running for 5.749)
+2024-08-13T17:35:35.488+08:00  INFO 38752 --- [Swapi-test] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-13T17:35:35.507+08:00  INFO 38752 --- [Swapi-test] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:35:35.598+08:00  INFO 38752 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 38752 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:35:35.599+08:00  INFO 38752 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:35:35.743+08:00  INFO 38752 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:35:35.750+08:00  INFO 38752 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2024-08-13T17:35:35.880+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:35:35.881+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:35:35.882+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:35:35.921+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:35:35.921+08:00  INFO 38752 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 320 ms
+2024-08-13T17:35:35.945+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T17:35:35.951+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T17:35:35.998+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T17:35:36.073+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T17:35:36.078+08:00  INFO 38752 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:35:36.202+08:00  WARN 38752 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T17:35:36.308+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T17:35:36.330+08:00  INFO 38752 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T17:35:36.333+08:00  INFO 38752 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 0.762 seconds (process running for 124.658)
+2024-08-13T17:35:36.336+08:00  INFO 38752 --- [Swapi-test] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-13T17:40:08.149+08:00  INFO 37304 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 37304 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:40:08.152+08:00  INFO 37304 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:40:08.201+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\aldren\.m2\repository\org\glassfish\hk2\hk2\3.0.6\hk2-3.0.6.jar referenced one or more files that do not exist: file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-utils.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.annotation-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.inject-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/aopalliance-repackaged.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-core.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-locator.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/javassist.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-runlevel.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/class-model.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-analysis.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-commons.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-tree.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-util.jar
+2024-08-13T17:40:08.201+08:00  INFO 37304 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-13T17:40:08.201+08:00  INFO 37304 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-13T17:40:08.983+08:00  INFO 37304 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:40:09.113+08:00  INFO 37304 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118 ms. Found 1 JPA repository interface.
+2024-08-13T17:40:10.269+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:40:10.285+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:40:10.285+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:40:10.343+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:40:10.344+08:00  INFO 37304 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2143 ms
+2024-08-13T17:40:10.461+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T17:40:10.529+08:00  INFO 37304 --- [Swapi-test] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-13T17:40:10.573+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T17:40:10.943+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T17:40:11.895+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T17:40:11.931+08:00  INFO 37304 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:40:12.391+08:00  WARN 37304 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T17:40:12.844+08:00  INFO 37304 --- [Swapi-test] [restartedMain] efaultSchemaResourceGraphQlSourceBuilder : Loaded 1 resource(s) in the GraphQL schema.
+2024-08-13T17:40:13.043+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.b.a.g.GraphQlAutoConfiguration       : GraphQL schema inspection:
+	Unmapped fields: {}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-08-13T17:40:13.079+08:00  INFO 37304 --- [Swapi-test] [restartedMain] s.b.a.g.s.GraphQlWebMvcAutoConfiguration : GraphQL endpoint HTTP POST /graphql
+2024-08-13T17:40:13.406+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T17:40:13.461+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T17:40:13.472+08:00  INFO 37304 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 5.814 seconds (process running for 6.393)
+2024-08-13T17:40:30.885+08:00  INFO 37304 --- [Swapi-test] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-13T17:40:30.885+08:00  INFO 37304 --- [Swapi-test] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-13T17:40:30.886+08:00  INFO 37304 --- [Swapi-test] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-13T17:41:07.926+08:00  INFO 37304 --- [Swapi-test] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-13T17:41:07.945+08:00  INFO 37304 --- [Swapi-test] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:41:08.040+08:00  INFO 37304 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 37304 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:41:08.041+08:00  INFO 37304 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:41:08.238+08:00  INFO 37304 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:41:08.246+08:00  INFO 37304 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2024-08-13T17:41:08.419+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:41:08.420+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:41:08.421+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:41:08.459+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:41:08.459+08:00  INFO 37304 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 415 ms
+2024-08-13T17:41:08.478+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T17:41:08.484+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T17:41:08.510+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T17:41:08.573+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T17:41:08.579+08:00  INFO 37304 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:41:08.700+08:00  WARN 37304 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T17:41:08.752+08:00  INFO 37304 --- [Swapi-test] [restartedMain] efaultSchemaResourceGraphQlSourceBuilder : Loaded 1 resource(s) in the GraphQL schema.
+2024-08-13T17:41:08.765+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.b.a.g.GraphQlAutoConfiguration       : GraphQL schema inspection:
+	Unmapped fields: {}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-08-13T17:41:08.768+08:00  INFO 37304 --- [Swapi-test] [restartedMain] s.b.a.g.s.GraphQlWebMvcAutoConfiguration : GraphQL endpoint HTTP POST /graphql
+2024-08-13T17:41:08.827+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T17:41:08.848+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T17:41:08.851+08:00  INFO 37304 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 0.849 seconds (process running for 61.772)
+2024-08-13T17:41:08.854+08:00  INFO 37304 --- [Swapi-test] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-13T17:41:25.637+08:00  INFO 37304 --- [Swapi-test] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-13T17:41:25.645+08:00  INFO 37304 --- [Swapi-test] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:41:25.724+08:00  INFO 37304 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 37304 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:41:25.725+08:00  INFO 37304 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:41:25.891+08:00  INFO 37304 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:41:25.898+08:00  INFO 37304 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2024-08-13T17:41:26.005+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:41:26.006+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:41:26.006+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:41:26.035+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:41:26.035+08:00  INFO 37304 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 308 ms
+2024-08-13T17:41:26.048+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T17:41:26.053+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T17:41:26.073+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T17:41:26.116+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T17:41:26.120+08:00  INFO 37304 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:41:26.222+08:00  WARN 37304 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T17:41:26.254+08:00  INFO 37304 --- [Swapi-test] [restartedMain] efaultSchemaResourceGraphQlSourceBuilder : Loaded 1 resource(s) in the GraphQL schema.
+2024-08-13T17:41:26.261+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.b.a.g.GraphQlAutoConfiguration       : GraphQL schema inspection:
+	Unmapped fields: {}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-08-13T17:41:26.264+08:00  INFO 37304 --- [Swapi-test] [restartedMain] s.b.a.g.s.GraphQlWebMvcAutoConfiguration : GraphQL endpoint HTTP POST /graphql
+2024-08-13T17:41:26.311+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T17:41:26.328+08:00  INFO 37304 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T17:41:26.331+08:00  INFO 37304 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 0.634 seconds (process running for 79.252)
+2024-08-13T17:41:26.332+08:00  INFO 37304 --- [Swapi-test] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-13T17:43:25.920+08:00  INFO 36552 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 36552 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:43:25.924+08:00  INFO 36552 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:43:25.979+08:00  INFO 36552 --- [Swapi-test] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\aldren\.m2\repository\org\glassfish\hk2\hk2\3.0.6\hk2-3.0.6.jar referenced one or more files that do not exist: file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-utils.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.annotation-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.inject-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/aopalliance-repackaged.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-core.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-locator.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/javassist.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-runlevel.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/class-model.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-analysis.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-commons.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-tree.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-util.jar
+2024-08-13T17:43:25.979+08:00  INFO 36552 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-13T17:43:25.979+08:00  INFO 36552 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-13T17:43:26.702+08:00  INFO 36552 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:43:26.821+08:00  INFO 36552 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 1 JPA repository interface.
+2024-08-13T17:43:27.815+08:00  INFO 36552 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:43:27.835+08:00  INFO 36552 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:43:27.835+08:00  INFO 36552 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:43:27.904+08:00  INFO 36552 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:43:27.905+08:00  INFO 36552 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1926 ms
+2024-08-13T17:43:28.035+08:00  INFO 36552 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T17:43:28.101+08:00  INFO 36552 --- [Swapi-test] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-13T17:43:28.136+08:00  INFO 36552 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T17:43:28.500+08:00  INFO 36552 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T17:43:29.464+08:00  INFO 36552 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T17:43:29.490+08:00  INFO 36552 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:43:29.502+08:00  WARN 36552 --- [Swapi-test] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'starWarsController' defined in file [C:\Projects\JobManager\Swapi-test\target\classes\com\aldren\Swapi_test\controller\StarWarsController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'starWarsService' defined in file [C:\Projects\JobManager\Swapi-test\target\classes\com\aldren\Swapi_test\service\StarWarsService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-08-13T17:43:29.502+08:00  INFO 36552 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:43:29.505+08:00  INFO 36552 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-13T17:43:29.515+08:00  INFO 36552 --- [Swapi-test] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-13T17:43:29.538+08:00 ERROR 36552 --- [Swapi-test] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.aldren.Swapi_test.service.StarWarsService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2024-08-13T17:44:49.759+08:00  INFO 36776 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 36776 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T17:44:49.762+08:00  INFO 36776 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T17:44:49.805+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\aldren\.m2\repository\org\glassfish\hk2\hk2\3.0.6\hk2-3.0.6.jar referenced one or more files that do not exist: file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-utils.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.annotation-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.inject-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/aopalliance-repackaged.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-core.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-locator.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/javassist.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-runlevel.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/class-model.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-analysis.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-commons.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-tree.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-util.jar
+2024-08-13T17:44:49.806+08:00  INFO 36776 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-13T17:44:49.806+08:00  INFO 36776 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-13T17:44:50.490+08:00  INFO 36776 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T17:44:50.611+08:00  INFO 36776 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 1 JPA repository interface.
+2024-08-13T17:44:51.549+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T17:44:51.568+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T17:44:51.569+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T17:44:51.650+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T17:44:51.650+08:00  INFO 36776 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1844 ms
+2024-08-13T17:44:51.783+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T17:44:51.844+08:00  INFO 36776 --- [Swapi-test] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-13T17:44:51.878+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T17:44:52.269+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T17:44:53.102+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T17:44:53.130+08:00  INFO 36776 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T17:44:53.541+08:00  WARN 36776 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T17:44:53.965+08:00  INFO 36776 --- [Swapi-test] [restartedMain] efaultSchemaResourceGraphQlSourceBuilder : Loaded 1 resource(s) in the GraphQL schema.
+2024-08-13T17:44:54.147+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.s.b.a.g.GraphQlAutoConfiguration       : GraphQL schema inspection:
+	Unmapped fields: {}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-08-13T17:44:54.173+08:00  INFO 36776 --- [Swapi-test] [restartedMain] s.b.a.g.s.GraphQlWebMvcAutoConfiguration : GraphQL endpoint HTTP POST /graphql
+2024-08-13T17:44:54.451+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T17:44:54.500+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T17:44:54.508+08:00  INFO 36776 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 5.288 seconds (process running for 5.936)
+2024-08-13T17:45:19.806+08:00  INFO 36776 --- [Swapi-test] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-13T17:45:19.806+08:00  INFO 36776 --- [Swapi-test] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-13T17:45:19.807+08:00  INFO 36776 --- [Swapi-test] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-13T18:40:25.935+08:00  INFO 36776 --- [Swapi-test] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 1 deletion, 4 modifications)
+2024-08-13T18:40:25.953+08:00  INFO 36776 --- [Swapi-test] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T18:40:26.059+08:00  INFO 36776 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 36776 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T18:40:26.060+08:00  INFO 36776 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T18:40:26.246+08:00  INFO 36776 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T18:40:26.253+08:00  INFO 36776 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2024-08-13T18:40:26.447+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T18:40:26.448+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T18:40:26.449+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T18:40:26.484+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T18:40:26.484+08:00  INFO 36776 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 420 ms
+2024-08-13T18:40:26.511+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T18:40:26.519+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T18:40:26.559+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T18:40:26.630+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T18:40:26.637+08:00  INFO 36776 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T18:40:26.748+08:00  WARN 36776 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T18:40:26.805+08:00  INFO 36776 --- [Swapi-test] [restartedMain] efaultSchemaResourceGraphQlSourceBuilder : Loaded 1 resource(s) in the GraphQL schema.
+2024-08-13T18:40:26.815+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.s.b.a.g.GraphQlAutoConfiguration       : GraphQL schema inspection:
+	Unmapped fields: {}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-08-13T18:40:26.819+08:00  INFO 36776 --- [Swapi-test] [restartedMain] s.b.a.g.s.GraphQlWebMvcAutoConfiguration : GraphQL endpoint HTTP POST /graphql
+2024-08-13T18:40:26.884+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T18:40:26.908+08:00  INFO 36776 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T18:40:26.911+08:00  INFO 36776 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 0.885 seconds (process running for 3338.34)
+2024-08-13T18:40:26.915+08:00  INFO 36776 --- [Swapi-test] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-13T18:43:31.078+08:00  INFO 5528 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 5528 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T18:43:31.081+08:00  INFO 5528 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T18:43:31.130+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\aldren\.m2\repository\org\glassfish\hk2\hk2\3.0.6\hk2-3.0.6.jar referenced one or more files that do not exist: file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-utils.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.annotation-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/jakarta.inject-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-api.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/aopalliance-repackaged.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-core.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-locator.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/javassist.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/hk2-runlevel.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/class-model.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-analysis.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-commons.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-tree.jar,file:/C:/Users/aldren/.m2/repository/org/glassfish/hk2/hk2/3.0.6/asm-util.jar
+2024-08-13T18:43:31.130+08:00  INFO 5528 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-13T18:43:31.130+08:00  INFO 5528 --- [Swapi-test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-13T18:43:31.900+08:00  INFO 5528 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T18:43:32.130+08:00  INFO 5528 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 182 ms. Found 1 JPA repository interface.
+2024-08-13T18:43:33.081+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T18:43:33.104+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T18:43:33.104+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T18:43:33.174+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T18:43:33.175+08:00  INFO 5528 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2044 ms
+2024-08-13T18:43:33.315+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T18:43:33.409+08:00  INFO 5528 --- [Swapi-test] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-13T18:43:33.456+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T18:43:33.916+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T18:43:34.884+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T18:43:34.914+08:00  INFO 5528 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T18:43:35.323+08:00  WARN 5528 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T18:43:35.791+08:00  INFO 5528 --- [Swapi-test] [restartedMain] efaultSchemaResourceGraphQlSourceBuilder : Loaded 1 resource(s) in the GraphQL schema.
+2024-08-13T18:43:35.993+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.s.b.a.g.GraphQlAutoConfiguration       : GraphQL schema inspection:
+	Unmapped fields: {}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-08-13T18:43:36.024+08:00  INFO 5528 --- [Swapi-test] [restartedMain] s.b.a.g.s.GraphQlWebMvcAutoConfiguration : GraphQL endpoint HTTP POST /graphql
+2024-08-13T18:43:36.288+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T18:43:36.336+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T18:43:36.346+08:00  INFO 5528 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 5.792 seconds (process running for 6.497)
+2024-08-13T18:43:51.171+08:00  INFO 5528 --- [Swapi-test] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-13T18:43:51.172+08:00  INFO 5528 --- [Swapi-test] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-13T18:43:51.173+08:00  INFO 5528 --- [Swapi-test] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
