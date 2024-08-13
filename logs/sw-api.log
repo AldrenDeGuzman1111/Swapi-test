@@ -437,3 +437,31 @@ Consider defining a bean of type 'org.springframework.web.client.RestTemplate' i
 2024-08-13T18:43:51.171+08:00  INFO 5528 --- [Swapi-test] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-08-13T18:43:51.172+08:00  INFO 5528 --- [Swapi-test] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-08-13T18:43:51.173+08:00  INFO 5528 --- [Swapi-test] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-13T21:48:17.901+08:00  INFO 5528 --- [Swapi-test] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2024-08-13T21:48:17.963+08:00  INFO 5528 --- [Swapi-test] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T21:48:18.165+08:00  INFO 5528 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Starting SwapiTestApplication using Java 22.0.1 with PID 5528 (C:\Projects\JobManager\Swapi-test\target\classes started by aldren in C:\Projects\JobManager\Swapi-test)
+2024-08-13T21:48:18.166+08:00  INFO 5528 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-13T21:48:18.378+08:00  INFO 5528 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13T21:48:18.389+08:00  INFO 5528 --- [Swapi-test] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2024-08-13T21:48:18.651+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-13T21:48:18.655+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-13T21:48:18.655+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13T21:48:18.698+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-13T21:48:18.699+08:00  INFO 5528 --- [Swapi-test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 528 ms
+2024-08-13T21:48:18.731+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13T21:48:18.740+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-13T21:48:18.774+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13T21:48:18.846+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13T21:48:18.852+08:00  INFO 5528 --- [Swapi-test] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13T21:48:19.039+08:00  WARN 5528 --- [Swapi-test] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13T21:48:19.126+08:00  INFO 5528 --- [Swapi-test] [restartedMain] efaultSchemaResourceGraphQlSourceBuilder : Loaded 1 resource(s) in the GraphQL schema.
+2024-08-13T21:48:19.140+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.s.b.a.g.GraphQlAutoConfiguration       : GraphQL schema inspection:
+	Unmapped fields: {}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-08-13T21:48:19.149+08:00  INFO 5528 --- [Swapi-test] [restartedMain] s.b.a.g.s.GraphQlWebMvcAutoConfiguration : GraphQL endpoint HTTP POST /graphql
+2024-08-13T21:48:19.258+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-13T21:48:19.282+08:00  INFO 5528 --- [Swapi-test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-13T21:48:19.285+08:00  INFO 5528 --- [Swapi-test] [restartedMain] c.a.Swapi_test.SwapiTestApplication      : Started SwapiTestApplication in 1.158 seconds (process running for 11089.437)
+2024-08-13T21:48:19.289+08:00  INFO 5528 --- [Swapi-test] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
